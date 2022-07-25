@@ -5,7 +5,7 @@ public class zad2 {
         float sWeight = weight1Box + weight2Box;
         float rWeight = weight1Box - weight2Box;
         if (rWeight<0){rWeight = rWeight*(-1);}
-        System.out.println("Сумма веса обооих боксеров равна " + sWeight + " кг");
+        System.out.println("Сумма веса обоих боксеров равна " + sWeight + " кг");
         System.out.println("Разница веса двух боксеров равна " + rWeight + " кг");
 
     }
